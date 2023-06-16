@@ -1,0 +1,78 @@
+body 
+{
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: auto;
+  text-align: center;
+}
+
+
+.grille
+{
+  min-height: 650px;
+  background-color: darkorchid;
+  margin: 10px;
+  width: max-content;
+  padding: 10px;
+}
+
+.rangee
+{
+  width: max-content;
+  text-align: center;
+}
+
+.cellule
+{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 2px;
+  text-align: center;
+  border-style: solid;
+}
+
+[id = '0']
+{
+  border-radius: 50%;
+}
+
+
+[id = '1']
+{
+  background-image: url("data/jetonjaune.png");
+  background-size: cover;
+  border-radius: 50%;
+}
+[id = '2']
+{
+  background-image: url("data/jetonrouge.png");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#jaune
+{
+  color: orange;
+}
+
+#rouge
+{
+  color: red;
+}
+
+.tour
+{
+  text-align: center;
+}
+
+.joueurActuel
+{
+  text-align: center;
+}
+
+.resultat
+{
+  text-align: center;
+}
